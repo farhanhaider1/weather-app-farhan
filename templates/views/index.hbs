@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>{{title}}</title>
+</head>    
+    <div class="main-body">
+        <div class="left-panel">
+            <div class="search-div">
+                <input type="image" name="" id="search-btn" src="/media/search-icon.svg">
+                <form class="search-child"><input id="location-input" placeholder="Search for places..." type="text"></form>
+                <input id="user-loc-btn" type="image" src="/media/user-loc.svg" />
+             </div>
+
+            <div class="icon"><img id="current-temp-icon" src="http://openweathermap.org/img/wn/01d@2x.png" alt="weather icon"></div>
+            <div class="weather-info">
+                <div class="temp"><span id="current-temp"></span></div>
+                <div class="feels-like"><p>Feels Like <span id="current-feel-temp"></span></p></div>
+                <!--todo: add chart.js-->
+                <div class="description"><span id="current-description"></span></div>
+                <div class="horly-chartjs"></div>
+            </div>
+        </div>
+        <div class="right-panel">
+            <h5 class="heading">Week</h5>
+            <div id="seven-daily-div">
+            </div>
+            <h5 class="heading">Today's Highlights</h5>
+            <div class="highlights">
+                
+                <div class="sunrise-set">
+                    <h5>Sunrise & Sunset ☀️</h5>
+                    <div class="sunrise"><img src="/media/morning+sign+sun+sunrise+weather+icon-1320196636545428610_0.svg" alt="sunrise icon"><span id="sunrise-time"></span></div>
+                    <div class="sunset"><img src="/media/download-icon-meteorology+sign+sun+sunset+weather+icon-1320196636123533754_0.svg" alt="sunset icon"><span id="sunset-time"># #</span></div>
+                </div>
+                <div class="humidity"><h5>Humidity</h5><img src="/media//humidity-icon.svg" alt="humidity icon"><span id="humidity-data"></span></div>
+                <div class="uvi"><h5 class="not">UV Index</h5><span id="uvi-data"></span></div>
+                <div class="windspeed"><h5>Wind Speed</h5><img src="/media/wind-icon.svg" alt="Wind Icon"><Span id="wind-data"></Span></div>
+                <div class="visibility"><h5>Visibility</h5><span id="visibility"></span></div>
+                <div class="time-date"><div class="timer"></div><span id="time"><div></div></span></div>
+            </div>
+        </div>
+    </div>
+             
+</body>
+<script src="/js/index.js"></script>
+</html>

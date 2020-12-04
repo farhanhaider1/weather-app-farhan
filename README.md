@@ -1,9 +1,10 @@
 <h3 align="center">WeatherCast</h3>
 <!-- ABOUT THE PROJECT -->
-## About The Project
+<h5> About The Project </h5>
 <p>A weather app built to dispaly current and 7 day weather forecast.</p>
 </br>
-### Built With
+
+<h5>Built With</h5>
 
 * JS
 * NodeJs
